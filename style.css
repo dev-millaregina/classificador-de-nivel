@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 0;
+}
+
+body{
+    background-color: #0E0A21;
+    font-family: Nunito;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    margin-top: 50px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    width: 1800px; 
+}
+
+header h1{
+    padding-left: 90px;
+    font-size: 40px;
+    margin-block: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin: 50px 70px 0 70px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.foto img{
+    border-radius: 50px;
+}
+
+.perfilHeroi{
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    padding: 0px 85px 0 85px;
+    margin-block: 0;
+}
+
+.perfilHeroi .nome{
+    width: 450px;
+}
+
+.dados-heroi{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    align-items: center;
+}
+
+.dados-heroi h1{
+    background-color: #DE2226;
+    border-radius: 50px;
+    color: #FFFFFF;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 15px 0 15px;
+    height: 300px;
+    margin-block: 0;
+}
+
+.informacoes ul{
+    font-size: 25px;
+    line-height: 37px;
+    padding-right: 18px;
+    margin-block: 0;
+}
+
+.patente{
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+    align-items: center;
+}
+
+.patente img{
+    width: 250px;
+    height: auto;
+}
+
+.patente-dados{
+    align-items: center;
+    line-height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.patente h2{
+    color: #FFC810;
+    font-size: 65px;
+    margin-block: 0;
+}
+
+.patente p{
+    font-size: 30px;
+    font-weight: bold;
+    color: #0E0A21;
+}
+
+.patente h3{
+    background-color: #DE2226;
+    border-radius: 50px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 15px 50px 15px 50px;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-block: 0;
+}
+
+.container h3{
+    background-color: #DE2226;
+    border-radius: 50px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 15px 50px 15px 50px;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-block: 0;
+}
+
+footer{
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    margin-top: 50px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1800px;
+}
+
+footer h3{
+    padding-left: 90px;
+    font-size: 30px;
+    margin-block: 0;
+}
+
+footer p{
+    padding-right: 90px;
+    font-size: 30px;
+    margin-block: 0;
+    font-weight: bold;
+}
