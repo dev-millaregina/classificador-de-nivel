@@ -9,101 +9,106 @@ body{
     font-family: Nunito;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
 header{
     background-color: #FFFFFF;
-    border-radius: 50px;
-    margin-top: 50px;
-    height: 80px;
+    border-radius: 25px;
+    margin-top: 25px;
+    height: 40px;
     display: flex;
-    align-items: center;
-    width: 1800px; 
+    align-items: center; 
+    width: 100%;
+    max-width: 900px;
 }
 
 header h1{
-    padding-left: 90px;
-    font-size: 40px;
+    padding-left: 45px;
+    font-size: 20px;
     margin-block: 0;
 }
 
 main {
     display: flex;
     justify-content: center;
-    margin: 50px 70px 0 70px;
+    margin: 25px 35px 0 35px;
 }
 
 .container{
     display: flex;
     flex-direction: row;
-    gap: 40px;
+    gap: 20px;
+    max-height: 500px;
+    justify-content: center;
 }
 
 .foto img{
-    border-radius: 50px;
+    border-radius: 25px;
+    height: 100%;
 }
 
 .perfilHeroi{
     background-color: #FFFFFF;
-    border-radius: 50px;
+    border-radius: 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 45px;
-    padding: 0px 85px 0 85px;
+    gap: 25px;
+    padding: 0px 35px 0 35px;
     margin-block: 0;
 }
 
 .perfilHeroi .nome{
-    width: 450px;
+    width: 205px;
+    margin-top: 20px;
 }
 
 .dados-heroi{
     display: flex;
     flex-direction: row;
-    gap: 80px;
+    gap: 40px;
     align-items: center;
 }
 
 .dados-heroi h1{
     background-color: #DE2226;
-    border-radius: 50px;
+    border-radius: 25px;
     color: #FFFFFF;
     writing-mode: vertical-rl;
     text-orientation: upright;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0px 15px 0 15px;
-    height: 300px;
+    padding: 0px 8px 0 8px;
+    height: 150px;
     margin-block: 0;
+    font-size: 15px;
 }
 
 .informacoes ul{
-    font-size: 25px;
-    line-height: 37px;
-    padding-right: 18px;
+    font-size: 12px;
+    line-height: 18px;
+    padding-right: 9px;
     margin-block: 0;
 }
 
 .patente{
     display: flex;
     flex-direction: row;
-    gap: 45px;
+    gap: 22px;
     align-items: center;
 }
 
 .patente img{
-    width: 250px;
+    width: 125px;
     height: auto;
 }
 
 .patente-dados{
     align-items: center;
-    line-height: 40px;
+    line-height: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -111,60 +116,62 @@ main {
 
 .patente h2{
     color: #FFC810;
-    font-size: 65px;
+    font-size: 32px;
     margin-block: 0;
 }
 
 .patente p{
-    font-size: 30px;
+    font-size: 15px;
     font-weight: bold;
     color: #0E0A21;
 }
 
 .patente h3{
     background-color: #DE2226;
-    border-radius: 50px;
+    border-radius: 25px;
     display: flex;
     justify-items: center;
     align-items: center;
-    padding: 15px 50px 15px 50px;
-    font-size: 25px;
+    padding: 7px 25px 7px 25px;
+    font-size: 12px;
     color: #FFFFFF;
     margin-block: 0;
 }
 
 .container h3{
     background-color: #DE2226;
-    border-radius: 50px;
+    border-radius: 25px;
     display: flex;
     justify-items: center;
     align-items: center;
-    padding: 15px 50px 15px 50px;
-    font-size: 25px;
+    padding: 7px 25px 7px 25px;
+    font-size: 12px;
     color: #FFFFFF;
     margin-block: 0;
+    margin-bottom: 20px;
 }
 
 footer{
     background-color: #FFFFFF;
-    border-radius: 50px;
-    margin: 50px 0 50px;
-    height: 80px;
+    border-radius: 25px;
+    margin: 25px 0 25px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 1800px;
+    width: 100%;
+    max-width: 900px;
 }
 
 footer h3{
-    padding-left: 90px;
-    font-size: 30px;
+    padding-left: 45px;
+    font-size: 15px;
     margin-block: 0;
 }
 
 footer p{
-    padding-right: 90px;
-    font-size: 30px;
+    padding-right: 45px;
+    font-size: 15px;
     margin-block: 0;
     font-weight: bold;
 }

@@ -79,5 +79,4 @@ Além disso, foi criada uma **Landing Page em HTML e CSS** para representar visu
 
 ## Autora
 
-Milla Regina Lopes Vieira - 
-[LinkedIn](https://www.linkedin.com/in/milla-regina-468020206/)
+Milla Regina Lopes Vieira - [LinkedIn](https://www.linkedin.com/in/milla-regina-468020206/)
