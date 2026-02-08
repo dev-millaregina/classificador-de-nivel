@@ -40,6 +40,10 @@ O projeto foi desenvolvido utilizando:
 
 Além disso, foi criada uma **Landing Page em HTML e CSS** para representar visualmente o perfil do herói, que futuramente poderá ser integrada ao JavaScript para tornar o classificador dinâmico.
 
+![](img/readme.png)
+
+#### Acesse o link: https://dev-millaregina.github.io/classificador-de-nivel/
+
 ## Estrutura do Projeto
 
 ```
